@@ -1,0 +1,223 @@
+#navbar {
+    display: flex;
+    align-items: center;
+    /*background: url(./food1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.logo {
+    margin: 7px 8px;
+    width: 23%;
+    font-family: 'baloo bhai', cursive;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+/*navbar liststyling*/
+
+#navbar ul li a {
+    padding: 0px 12px;
+    padding-bottom: 2px;
+    float: right;
+
+}
+
+.nav2 {
+    color: black;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'baloo bhai', cursive;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: black;
+    border-radius: 19px;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(209, 206, 206);
+    color: black;
+}
+
+#navbar ul :last-child a {
+    background-color: rgb(114, 114, 114);
+    border-radius: 19px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+
+    font-family: 'baloo bhai', cursive;
+}
+
+#navbar ul :last-child a:hover {
+    background-color: rgb(114, 114, 114);
+    color: white;
+}
+
+.photo {
+    height: 560px;
+    position: fixed !important;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/photos/amaan3.jpg');
+    filter: grayscale(75%);
+
+}
+
+
+.head1 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.head1 b {
+    font-size: 4rem;
+
+}
+
+.head1 p {
+    font-size: 2rem;
+    color: rgb(114, 114, 114)
+}
+
+h2 {
+    margin-top: -50px;
+}
+
+h1 {
+    color: rgb(114, 114, 114);
+    font-size: 2rem;
+    margin-left: 25px;
+    margin-top: 50px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+
+p {
+    color: rgb(114, 114, 114);
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 25px;
+}
+
+.lightgrey {
+    background-color: whitesmoke;
+    margin-left: 25px;
+}
+
+.percent {
+    color: white;
+    background-color: #616161 !important;
+    text-align: center;
+    padding: 4px 8px;
+}
+
+hr {
+    margin-left: 26px;
+    border: 0px;
+    border-top: 1px solid #eee;
+}
+
+.icons i {
+    padding-right: 25px;
+}
+
+.pht img {
+    height: 400px;
+    width: 740px;
+    margin-left: 25px;
+    background-size: cover;
+}
+
+.footer {
+    height: 200px;
+
+    background-color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+    margin-left: -5px;
+    margin-right: -40px;
+    margin-bottom: -30px;
+}
+
+.footer i {
+    font-size: 35px;
+    margin: 100px 2px 2px 2px;
+}
+
+.start {
+    padding: 12px 24px !important;
+}
+
+/* portfolio */
+.container {
+    margin-left: 25px;
+    margin-top: 22px;
+}
+
+.card {
+    margin-top: 15px;
+    height: 460px;
+    background-color: whitesmoke;
+    padding: 12px 12px 12px 14px;
+    transition: all 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+}
+
+.card img {
+    height: 350px;
+    width: 695px;
+    margin-top: 4px;
+}
+
+.card h3 {
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card h4 {
+    margin-top: -11px;
+    color: rgb(114, 114, 114);
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card2 {
+    margin-top: 15px;
+    height: 360px;
+    background-color: whitesmoke;
+    padding: 12px 12px 12px 14px;
+    transition: all 0.5s;
+}
+
+.card2:hover {
+    transform: translateY(-0.4vmax);
+    box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+}
+
+.card2 img {
+    height: 350px;
+    width: 695px;
+    margin-top: 4px;
+}
